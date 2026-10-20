@@ -19,7 +19,7 @@ pipeline {
     }
     stage('Docker Build') {
       steps {
-        sh 'docker build -t ${DOCKERHUB_USER}/${IMAGE_NAME}:${BUILD_NUMBER} -t ${DOCKERHUB_USER}/${IMAGE_NAME}:latest .'
+        sh 'docker build --build-arg APP_VERSION=${BUILD_NUMBER} -t ${DOCKERHUB_USER}/${IMAGE_NAME}:${BUILD_NUMBER} -t ${DOCKERHUB_USER}/${IMAGE_NAME}:latest .'
       }
     }
     stage('Push Image') {
