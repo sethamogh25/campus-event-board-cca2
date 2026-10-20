@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: campus-event-board
-          image: REPLACE_WITH_YOUR_DOCKERHUB_USERNAME/campus-event-board:latest
+          image: amoghseth25/campus-event-board:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000

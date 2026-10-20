@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    DOCKERHUB_USER = 'REPLACE_WITH_YOUR_DOCKERHUB_USERNAME'
+    DOCKERHUB_USER = 'amogh_seth25'
     IMAGE_NAME = 'campus-event-board'
     KUBECONFIG = '/var/lib/jenkins/.kube/config'
     MINIKUBE_HOME = '/var/lib/jenkins'
