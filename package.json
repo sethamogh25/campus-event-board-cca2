@@ -1,0 +1,8 @@
+{
+  "name": "campus-event-board",
+  "version": "1.0.0",
+  "description": "Campus events app for a CCA2 CI/CD pipeline",
+  "main": "server.js",
+  "scripts": {"start": "node server.js", "test": "node --test"},
+  "engines": {"node": ">=20"}
+}

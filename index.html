@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Campus Event Board</title>
+<style>
+body{margin:0;background:#f3f6fb;color:#182235;font-family:system-ui,sans-serif}
+header{padding:2.2rem max(1.2rem,calc((100% - 950px)/2));background:#243b70;color:white}
+header h1{margin:0 0 .4rem;font-size:clamp(2rem,5vw,3rem)}
+main{max-width:950px;margin:2rem auto;padding:0 1rem}
+.banner{background:#e5edff;border:1px solid #c7d7ff;border-radius:14px;padding:1rem 1.2rem;margin-bottom:1.4rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+article{background:white;border-radius:14px;padding:1.2rem;box-shadow:0 5px 20px #15284a12}
+.date{color:#3155a4;font-weight:700;font-size:.9rem}footer{text-align:center;color:#667085;padding:2rem}
+code{background:#e8ecf5;padding:.15rem .35rem;border-radius:5px}
+</style></head>
+<body><header><h1>Campus Event Board</h1><p>Discover what is happening around your campus.</p></header>
+<main><div class="banner"><strong>CI/CD demo — version __APP_VERSION__</strong><p>Events are shown in a simple, responsive student dashboard.</p></div>
+<section class="grid" aria-label="Upcoming events">
+<article><div class="date">MON · 10:00 AM</div><h2>Tech Talk</h2><p>Explore cloud computing, containers and modern deployment.</p></article>
+<article><div class="date">WED · 2:00 PM</div><h2>Project Showcase</h2><p>Present student projects and exchange feedback with peers.</p></article>
+<article><div class="date">FRI · 4:30 PM</div><h2>Developer Meetup</h2><p>Practice collaboration, Git workflows and interview skills.</p></article>
+</section><p>Health endpoint: <code>/api/health</code></p></main>
+<footer>Campus Event Board · Built for Cloud Computing and DevOps CCA2</footer></body></html>
